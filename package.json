@@ -1,0 +1,29 @@
+{
+  "name": "graphql-endpoint",
+  "version": "0.0.1",
+  "description": "Simple Graphql Endpoint ",
+  "main": "index.ts",
+  "repository": "git@github.com:SecureDataDistro/graphql-endpoint.git",
+  "author": "j.taylor <j.taylor@orbisops.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@google-cloud/storage": "^6.11.0",
+    "@hub/iam": "https://github.com/SecureDataDistro/iam.git",
+    "@hub/jwt": "https://github.com/SecureDataDistro/jwt.git",
+    "body-parser": "^1.20.2",
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^20.3.2",
+    "esbuild": "^0.18.10",
+    "run-func": "^3.0.0"
+  }
+}
